@@ -3,3 +3,4 @@ openai
 nltk
 pypdf
 python-dotenv
+pypandoc
