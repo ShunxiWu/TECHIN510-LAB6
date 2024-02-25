@@ -5,4 +5,4 @@ pypdf
 python-dotenv
 pypandoc
 dotenv
-fitz
+PyMuPDF
