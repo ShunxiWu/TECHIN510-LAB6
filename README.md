@@ -17,3 +17,6 @@ This Streamlit app allows you to upload a PDF document and generate text from it
 - python-dotenv
 - fitz
 - openai
+## License
+
+This project is licensed under the terms of the MIT license.
