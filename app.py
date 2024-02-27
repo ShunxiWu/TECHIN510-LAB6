@@ -53,7 +53,7 @@ if uploaded_file:
     text = extract_text_from_pdf(pdf_contents)
 
     # 构建用于 ChatGPT 的 prompt
-    prompt = f"Read the following PDF content, define what kind of document it is and generate text:\n{text}\n\n to latex by its content style:"
+    prompt = f"Read the following content, define what kind of document it is and generate text to latex by its content style, your output should only have 1. what kind of document it is 2. Generated to Latex:\n{text}\n\n"
 
     # 向会话消息列表中添加用户输入的 prompt
     st.session_state.messages.append({"role": "user", "content": prompt})
