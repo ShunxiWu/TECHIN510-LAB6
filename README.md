@@ -2,7 +2,7 @@
 
 This Streamlit app allows you to upload a PDF document and generate text from it using OpenAI's ChatGPT model.
 
-axi-techin510-lab6.azurewebsites.net
+https://axi-techin510-lab6.azurewebsites.net
 
 
 ## Usage
